@@ -6,3 +6,4 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: streetmerchant
+    network_mode: "host"
